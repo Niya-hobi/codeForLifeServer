@@ -6,9 +6,9 @@ class Hero{
       this.power = power;
     }
   }
-  const storm = new Hero("storm", 100, 32, 80);
-  const spiderman = new Hero("Black Panther", 49, 65, 55);
-  const batman = new Hero("Green arrow", 75, 50, 70);
+  const Storm = new Hero("Storm", 100, 32, 80);
+  const BlackPanther = new Hero("Black Panther", 49, 65, 55);
+  const batman = new Hero("Batman", 75, 50, 70);
   function fight(player1, player2){
     if(player1.strength > player2.strength && player1.power > player2.power){
       console.log(`${player1.name} is the winer`);
